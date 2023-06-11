@@ -1,7 +1,5 @@
 import 'dotenv/config'
 import linebot from 'linebot'
-// import axios from 'axios'
-// import cafe from './commands/cafe.js'
 import movie from './commands/movie.js'
 
 const bot = linebot({
@@ -10,13 +8,11 @@ const bot = linebot({
     channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN
 })
 
-// bot.on('follow', async event => {
-//     event.reply(`
-//     Hi, please enter a movie title to check its score on MetaCritic.
-//     If the movie title contains more than one word, please join them with '-'.
-// For example, ""
-//     `)
-// })
+bot.on('follow', async event => {
+    event.reply(`
+    Hi, please enter a movie title to check its score on MetaCritic.
+    `)
+})
 
 bot.on('message', async event => {
     if (event.message.type === 'text') {

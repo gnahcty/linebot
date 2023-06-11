@@ -16,12 +16,7 @@ bot.on('follow', async event => {
 
 bot.on('message', async event => {
     if (event.message.type === 'text') {
-        if (event.message.text === 'fight-club') {
-            event.reply('We do not talk about fight club.')
-        } else {
-            movie(event)
-        }
-        // event.reply(event.message.text.trim().toLowerCase().replace(/\s/g, '-'))
+        movie(event)
     } else {
         event.reply(`Can't find the movie title.`)
     }

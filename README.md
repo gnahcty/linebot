@@ -27,5 +27,6 @@ A simple bot that returns a film's metascore and reviews in metacritic.
 
 ![image](https://github.com/gnahcty/metacritic-film-score-linebot/assets/120380571/6382245b-66aa-4f95-8b30-fa8294f6f9b0)
 
-*Data-Source*
+*Data Source*
+
 https://www.metacritic.com/movie

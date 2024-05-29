@@ -7,7 +7,7 @@ export default {
         "contents": [
             {
                 "type": "text",
-                "text": "In Progress",
+                "text": "Commenter",
                 "color": "#ffffff",
                 "align": "start",
                 "size": "md",
@@ -15,7 +15,7 @@ export default {
             },
             {
                 "type": "text",
-                "text": "100%",
+                "text": "Score",
                 "color": "#ffffff",
                 "align": "start",
                 "size": "xs",
@@ -38,7 +38,7 @@ export default {
                 "contents": [
                     {
                         "type": "text",
-                        "text": "Buy milk and lettuce before class",
+                        "text": "comment",
                         "color": "#8C8C8C",
                         "size": "sm",
                         "wrap": true
